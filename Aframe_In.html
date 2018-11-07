@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a-scene>
+     <a-entity geometry="primitive: box; width: 3" 
+                material="color: red"
+                position="0 2 0"></a-entity> 
+    <a-box color = "#EF2D5E"
+           width="1"
+           height="1"
+           depth="1"
+           position="0 3 0" >
+           <a-circle color="#00000"
+                     radius="0.1" 
+                     side ="double"
+                     position ="0.2 0.1 0.51"  >
+           </a-circle>
+           <a-circle color="#00000"
+           radius="0.1" 
+           side ="double"
+           position ="-0.2 0.1 0.51"  >
+ </a-circle>
+    </a-box>
+    <a-plane color="#EF2D5E"
+            width="10"
+            height="10"
+            side="double"
+            rotation="90 0 0">
+
+    </a-plane>
+    <a-sky color="#000000">
+     </a-sky>
+</a-scene>
+</body>
+</html> 
